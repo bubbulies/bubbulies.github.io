@@ -1,0 +1,30 @@
+name: Public website checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-public-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify inventory, manifest and that docs/ reproduces exactly
+        run: python3 Tools/verify_public_export.py
+      - name: Test pages, policies and validation
+        run: python3 Tools/test_public_site.py
+
+# No deployment and no credentials; GitHub Pages publishes docs/ from main directly.

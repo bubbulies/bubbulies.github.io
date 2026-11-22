@@ -1,0 +1,588 @@
+{
+  "ui": {
+    "brand": "bubbulies",
+    "tagline": "Aim. Match. Smile.",
+    "navLabel": "Main navigation",
+    "languageLabel": "العربية",
+    "skip": "Skip to content",
+    "toc": "On this page",
+    "updated": "Effective",
+    "contact": "Email support",
+    "footer": "A bright bubble-shooter for iPhone.",
+    "footerSeller": "Published on the App Store by",
+    "allPages": "Player information",
+    "readMore": "Read",
+    "homeCta": "Get help",
+    "privacyCta": "Privacy at a glance",
+    "comingSoon": "Coming soon to the App Store for iPhone.",
+    "appStore": "Download on the App Store",
+    "factLevels": "50 Adventure levels",
+    "factWorlds": "5 dreamy worlds",
+    "factFree": "Free retries, no purchases",
+    "factBilingual": "English and العربية",
+    "worldsLabel": "The five worlds",
+    "backTop": "Back to top",
+    "licenses": "License notices",
+    "references": "Official service information",
+    "notFoundTitle": "This bubble floated away",
+    "notFoundText": "The page you asked for doesn't exist. Choose a page below."
+  },
+  "worlds": [
+    "Cloud Meadows",
+    "Candy Skies",
+    "Crystal Lagoon",
+    "Starlight Valley",
+    "Moonlight Kingdom"
+  ],
+  "pages": {
+    "home": {
+      "title": "bubbulies",
+      "navTitle": "Home",
+      "summary": "A bright, friendly bubble-shooter for iPhone. Aim, match three or more bubbles of the same colour and pop your way through five dreamy worlds.",
+      "sections": [
+        {
+          "id": "the-game",
+          "title": "The game",
+          "paragraphs": [
+            "Drag above the launcher to aim, release to shoot, and match three or more bubbles of the same colour. Bubbles that lose their hold on the ceiling fall for extra points. Bounce shots off the walls and swap your current and next bubble when it helps."
+          ],
+          "items": [
+            "50 hand-made Adventure levels across five worlds, plus 10 quick Bonus Pop stages.",
+            "Free retries: no lives and no waiting.",
+            "Optional rewarded ads only. You never have to watch an ad to play or to retry.",
+            "No real-money purchases. Coins and boosters are earned by playing.",
+            "Comfort settings: reduced motion, colour symbols, an aim guide, and separate music, sound and haptics switches.",
+            "Fully playable in English and Arabic."
+          ]
+        },
+        {
+          "id": "privacy-at-a-glance",
+          "title": "Privacy at a glance",
+          "paragraphs": [],
+          "items": [
+            "You can play without an account. Your progress is saved on your iPhone.",
+            "Online features (cloud save, friends, rankings and ad rewards) start only when you choose Connect account.",
+            "We never ask for your name, email address, phone number, contacts, photos or precise location.",
+            "Game analytics and crash reports are off unless you switch them on in Settings.",
+            "You can delete your cloud account inside the app at any time, or ask us by email."
+          ]
+        },
+        {
+          "id": "who-its-for",
+          "title": "Who it's for",
+          "paragraphs": [
+            "bubbulies is a general-audience game for players aged {{minimumAge}} and over. Questions? Write to {{supportEmail}}."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "navTitle": "Privacy",
+      "summary": "What the bubbulies iPhone game and this website do with information, why, how long it is kept, and the choices you have.",
+      "sections": [
+        {
+          "id": "who-we-are",
+          "title": "Who we are",
+          "paragraphs": [
+            "bubbulies (“we”, “us”) is an iPhone game published on the App Store by {{seller}}, the developer of bubbulies, who is responsible for the information described here. This policy covers the bubbulies app and the website {{siteHost}}.",
+            "Questions and requests about privacy: {{supportEmail}}."
+          ],
+          "items": []
+        },
+        {
+          "id": "in-short",
+          "title": "In short",
+          "paragraphs": [],
+          "items": [
+            "Playing needs no account. Progress, settings and earned items are saved on your device.",
+            "We never ask for your name, email address, phone number, contacts, photos or precise location.",
+            "Online features are optional and start only when you tap Connect account. They run on Google Firebase.",
+            "Ads are optional rewarded videos from Google AdMob. We ask Google for non-personalised ads only.",
+            "Game analytics and crash reports are off by default; you decide whether to switch them on.",
+            "You can delete your cloud account inside the app at any time."
+          ]
+        },
+        {
+          "id": "on-your-device",
+          "title": "Information kept on your device",
+          "paragraphs": [
+            "Most of bubbulies works entirely on your iPhone. The app saves the following in its own storage on your device. It is not sent to us unless you connect an online account, as described in the next section."
+          ],
+          "items": [
+            "Level progress: stars, scores, attempts and play statistics.",
+            "Coins, boosters and cosmetic items earned while playing as a device guest.",
+            "Settings: language, music, sound effects, haptics, reduced motion, colour symbols and the aim guide.",
+            "Your colour theme (Classic or Ocean).",
+            "Your choices about game analytics and crash reports.",
+            "References to ad rewards that are still being confirmed, so they are not lost if the app closes.",
+            "If you are connected: copies of rankings, your friends list and daily challenges, kept for up to one day so the game does not download them again and again."
+          ]
+        },
+        {
+          "id": "theme-question",
+          "title": "The theme question",
+          "paragraphs": [
+            "When you first open the game, it can ask whether you would like a “male” or “female” style. Your answer is used once to choose a colour theme and is then discarded. Only the resulting theme (Classic or Ocean) is saved, and only on your device. The answer itself is never stored, never sent to us or anyone else, and never used for advertising or analytics. You can skip the question and change the theme at any time in Settings."
+          ],
+          "items": []
+        },
+        {
+          "id": "online-account",
+          "title": "Optional online account",
+          "paragraphs": [
+            "If you open Profile and tap Connect account, the app creates a guest account with Google Firebase Authentication. You can then link it to Sign in with Apple so your progress can be restored on another device. We do not request your name or email address from Apple.",
+            "While you are connected, the following is stored with your account on Firebase:"
+          ],
+          "items": [
+            "Account identifiers: a random Firebase user ID and, if you link Apple, the account identifier Apple provides for bubbulies.",
+            "Your nickname (2 to 20 characters) and built-in avatar, if you set them, and a random friend code.",
+            "For each level, only your best score and best star rating. Every other attempt, time and score stays on your device.",
+            "Short-lived run records used to verify level completions, prevent duplicate rewards and check daily and weekly challenges. They hold the level, stars and counters such as bubbles matched and dropped, not your score. They are deleted automatically 8 days after they are created. Unfinished level attempts (the board and shots needed to approve a booster or continue) are also deleted 8 days after their last update.",
+            "Your Coin and booster balance and a receipt for each reward or spend (amounts only, no gameplay detail).",
+            "Daily records (the free daily gift and eligible replays) and challenge rewards you have claimed.",
+            "Bonus Pop attempts and replays, deleted 30 days after the attempt expires. Your first-completion record and best Bonus Pop score stay with your account.",
+            "Ranked Timed and Endless runs: the challenge, your shots and the score our server calculates. Run evidence is kept for 90 days to review fair play. Your best ranking entries stay while your account exists.",
+            "Friends: your friend connections, invitations (which expire after 7 days) and the players you have blocked.",
+            "Ad reward records, described in the advertising section.",
+            "Request counters used to prevent abuse."
+          ]
+        },
+        {
+          "id": "rankings-and-friends",
+          "title": "Rankings and friends",
+          "paragraphs": [
+            "Rankings show the top 50 players on each board, plus your own position. Each row shows a player name and a score. The name is your nickname or an automatically generated alias such as “Player 1a2b”. Other players never see your email address or Apple ID.",
+            "Your nickname and avatar are visible to your friends and to players you send an invitation to or receive one from. Your profile is not otherwise public. bubbulies has no chat. You can remove or block a player at any time."
+          ],
+          "items": []
+        },
+        {
+          "id": "advertising",
+          "title": "Optional rewarded ads",
+          "paragraphs": [
+            "bubbulies shows only optional rewarded video ads, and only after you tap a clearly labelled button that states the reward (Coins, a booster or a continue). There are no banner ads and no forced ads, and you never have to watch an ad to play or retry. Ad rewards need a connected account, because our server confirms each reward with Google before it is added.",
+            "Ads are provided by Google AdMob. When an ad is requested or shown, Google's Mobile Ads SDK may collect information such as your device's IP address (used to estimate a general location), device and app information, ad interactions and diagnostic data, as described in Google's privacy policy. To confirm a reward, we give Google your Firebase user ID and a one-time attempt reference; Google returns them to our server with a signed receipt.",
+            "Non-personalised ads: bubbulies asks Google for non-personalised ads only. Ads are not chosen based on your activity in other apps and websites. Google may still use information to show ads that suit the content, limit how often you see an ad, prevent fraud and measure ad performance.",
+            "Consent: before any ad loads, the app uses Google's User Messaging Platform to show the consent messages required where you live. That covers the European Economic Area, the United Kingdom and Switzerland, and US states with consumer-privacy laws. You can review or change your choices at any time in Settings → Privacy and account → Advertising privacy choices.",
+            "Tracking: bubbulies does not itself show Apple's App Tracking Transparency prompt. If a tracking request is ever shown for bubbulies, for example as part of Google's consent message, declining has no effect on gameplay or rewards. You can change this at any time in iOS Settings → Privacy & Security → Tracking."
+          ],
+          "items": []
+        },
+        {
+          "id": "analytics-and-crash-reports",
+          "title": "Game analytics and crash reports (off by default)",
+          "paragraphs": [
+            "Settings → Optional sharing has two switches. Both are off until you turn them on:"
+          ],
+          "items": [
+            "Game analytics (Google Analytics for Firebase): play and session measurements such as first launch, session starts, play time, and which reward offers were shown or used, linked to an app-instance identifier. Google signals and ad-personalisation signals are switched off.",
+            "Crash reports (Firebase Crashlytics): crash and device details, such as the device model, iOS version and what the app was doing when it crashed, to help us fix problems.",
+            "Turning a switch off stops new collection. Information already sent is kept by Google for the period set for our Firebase project, and it is not deleted automatically when you delete your account. Email us if you want it deleted."
+          ]
+        },
+        {
+          "id": "service-providers",
+          "title": "Service providers",
+          "paragraphs": [
+            "We use these providers. Their own privacy policies are linked at the end of this page."
+          ],
+          "items": [
+            "Google Firebase (Authentication, Cloud Firestore, Cloud Functions, App Check, Remote Config, Analytics and Crashlytics) runs the online features for us. While you are connected, the app downloads game settings such as active reward offers from Remote Config. Remote Config receives basic app and device information, for example the app version and language.",
+            "App Check uses Apple's App Attest (or DeviceCheck) to confirm that requests come from the genuine bubbulies app. It does not use your personal details.",
+            "Google AdMob provides the optional rewarded ads.",
+            "Apple provides Sign in with Apple and App Store distribution.",
+            "GitHub hosts this website."
+          ]
+        },
+        {
+          "id": "international",
+          "title": "Where information is processed",
+          "paragraphs": [
+            "Firebase and AdMob are operated by Google, so online information may be processed in the United States and other countries where Google operates. Google's data-processing terms include safeguards for these international transfers."
+          ],
+          "items": []
+        },
+        {
+          "id": "why-we-use-information",
+          "title": "Why we use information",
+          "paragraphs": [],
+          "items": [
+            "To run the game and the online features you choose to use (to provide the service you asked for).",
+            "To keep Coins, rewards and rankings fair and to prevent cheating and abuse (our legitimate interest in a fair, secure game).",
+            "To show optional ads and confirm their rewards (your consent where the law requires it; otherwise providing the reward you asked for).",
+            "Game analytics and crash reports (only with your consent, which you can withdraw at any time).",
+            "To answer messages you send us and to meet legal obligations."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "How long information is kept",
+          "paragraphs": [],
+          "items": [
+            "Device data: until you reset it, delete the app, or the app replaces it. Cached rankings, friends and challenges are refreshed after one day.",
+            "Cloud account data (profile, best scores, Coins, receipts, friends, rankings and claimed rewards): until you delete your account.",
+            "Level run records and unfinished attempts: deleted automatically 8 days after they are created or last updated.",
+            "Bonus Pop attempts and ranked challenges: 30 days after they expire. Ranked run evidence: 90 days.",
+            "After an account is deleted: a marker made of the random user ID and the deletion time, kept for 7 days so an old sign-in session cannot recreate the account.",
+            "Analytics and crash reports, if you turned them on: for the period set in Google's settings for our project.",
+            "Support emails: only as long as needed to handle your request, unless the law requires us to keep them longer.",
+            "Automatic deletion is carried out by scheduled clean-up in the database, so it can run shortly after the dates above."
+          ]
+        },
+        {
+          "id": "your-choices-and-rights",
+          "title": "Your choices and rights",
+          "paragraphs": [
+            "You can play offline without an account, keep analytics and crash reports off, change your ad choices, export your device save (Settings → Privacy and account → Request a copy of your data), reset it (Reset progress on this device), and delete your cloud account in the app.",
+            "Depending on where you live, you may have the right to access, correct, delete or receive a copy of your information, to object to or restrict its use, to withdraw consent, and to opt out of the “sale” or “sharing” of information or targeted advertising as defined by some US state laws. To make a request, email {{supportEmail}}. We may ask for information that shows the account is yours, such as your friend code. We reply within one month, or sooner if your local law requires it. If you disagree with our answer, you can ask us to reconsider it, and you can complain to your local data-protection authority."
+          ],
+          "items": []
+        },
+        {
+          "id": "children",
+          "title": "Children",
+          "paragraphs": [
+            "bubbulies is a general-audience game for players aged {{minimumAge}} and over. It is not directed at children under 13, and we do not knowingly collect personal information from children under 13. Ads are requested for a general audience, are not marked as child-directed, and are limited to content rated for general audiences. If you believe a child under 13 has created an online account or sent us information, contact us and we will delete it."
+          ],
+          "items": []
+        },
+        {
+          "id": "security",
+          "title": "Security",
+          "paragraphs": [
+            "Online information is sent over encrypted connections. The app cannot write to the database directly: only our server functions can change Coins, scores, rankings or friends, and each request is checked against your signed-in account and App Check. No system is perfectly secure, but we work to protect your information."
+          ],
+          "items": []
+        },
+        {
+          "id": "this-website",
+          "title": "This website",
+          "paragraphs": [
+            "{{siteHost}} has no cookies, analytics, scripts, forms or embedded third-party content. It is hosted by GitHub Pages. GitHub records visitors' IP addresses for security, as described in its privacy statement."
+          ],
+          "items": []
+        },
+        {
+          "id": "changes",
+          "title": "Changes to this policy",
+          "paragraphs": [
+            "When the app's use of information changes, we will update this page and its effective date before the change takes effect. Where a change is significant, we will also tell you in the app or on its App Store page."
+          ],
+          "items": []
+        },
+        {
+          "id": "contact",
+          "title": "Contact",
+          "paragraphs": [
+            "Email {{supportEmail}}. You can write in English or Arabic."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "navTitle": "Terms",
+      "summary": "The rules for playing bubbulies, including Coins and rewards, optional ads, accounts and fair play.",
+      "sections": [
+        {
+          "id": "agreement",
+          "title": "About these terms",
+          "paragraphs": [
+            "These terms apply when you download or play bubbulies. bubbulies is provided by {{seller}} (“we”, “us”). By playing, you agree to these terms and to our Privacy Policy. Apple's Standard End User License Agreement (linked below) also applies to apps from the App Store; these terms add to it."
+          ],
+          "items": []
+        },
+        {
+          "id": "age",
+          "title": "Age",
+          "paragraphs": [
+            "bubbulies is for players aged {{minimumAge}} and over. If you are under the age of majority where you live, please read these terms with a parent or guardian."
+          ],
+          "items": []
+        },
+        {
+          "id": "licence",
+          "title": "Your licence to play",
+          "paragraphs": [
+            "We give you a personal, non-commercial, non-transferable licence to use bubbulies on Apple devices you own or control. You may not copy, sell, modify or reverse engineer the game, except where the law or an open-source licence listed on the Credits page allows it."
+          ],
+          "items": []
+        },
+        {
+          "id": "coins-and-rewards",
+          "title": "Coins, boosters and rewards",
+          "paragraphs": [],
+          "items": [
+            "bubbulies has no real-money purchases. Coins, boosters and cosmetic items are earned by playing or by choosing to watch an optional ad.",
+            "They have no cash value. They cannot be sold, transferred, or exchanged for money or anything outside the game, and they are not your property.",
+            "Items earned as a device guest stay on that device. Your cloud account has its own balance, confirmed by our server; device and cloud balances are not merged.",
+            "An ad reward may stay pending until our server confirms it with Google. We may correct balances that result from errors, bugs or abuse."
+          ]
+        },
+        {
+          "id": "optional-ads",
+          "title": "Optional ads",
+          "paragraphs": [
+            "Watching an ad is always your choice, and the reward is shown before you watch. If no ad is available, normal play and free retries still work. Do not click ads to earn rewards, and do not use tools or scripts to fake ad views. Rewards obtained that way may be removed."
+          ],
+          "items": []
+        },
+        {
+          "id": "accounts",
+          "title": "Online accounts",
+          "paragraphs": [
+            "Online accounts are optional. Keep your Apple ID secure, because anyone who can sign in with it can use your bubbulies account. You can delete your account at any time (see the Account deletion page). We may suspend or delete accounts that break these terms."
+          ],
+          "items": []
+        },
+        {
+          "id": "fair-play",
+          "title": "Fair play and nicknames",
+          "paragraphs": [],
+          "items": [
+            "Do not cheat: no bots, modified apps, automated play, bug exploits or attempts to manipulate rewards or rankings.",
+            "Nicknames must not be offensive or hateful, impersonate someone, or contain personal details such as phone numbers or addresses.",
+            "We may reset nicknames, remove scores from rankings or limit online features for players who break these rules. You can remove or block other players at any time."
+          ]
+        },
+        {
+          "id": "changes-to-the-game",
+          "title": "Changes and availability",
+          "paragraphs": [
+            "We may update, change or remove game features, levels, rewards and online services. Online features need an internet connection and may sometimes be unavailable. If we permanently stop the online services, we will try to give notice in the app first."
+          ],
+          "items": []
+        },
+        {
+          "id": "ownership",
+          "title": "Ownership",
+          "paragraphs": [
+            "The bubbulies name, characters, artwork, levels, music and software belong to us. Open-source components are used under their own licences, listed on the Credits page."
+          ],
+          "items": []
+        },
+        {
+          "id": "disclaimer",
+          "title": "Disclaimer and liability",
+          "paragraphs": [
+            "bubbulies is a free game provided “as is” and “as available”, to the extent the law allows. We are not responsible for indirect or consequential losses, or for loss of in-game progress or items, except where the law does not allow us to exclude or limit that responsibility. Nothing in these terms limits rights you have under consumer-protection laws that cannot be excluded."
+          ],
+          "items": []
+        },
+        {
+          "id": "governing-law",
+          "title": "Governing law",
+          "paragraphs": [
+            "These terms are subject to the law that applies to you, including the mandatory consumer and privacy protections of the place where you live. They do not choose a particular country's law or an exclusive court."
+          ],
+          "items": []
+        },
+        {
+          "id": "apple",
+          "title": "Apple",
+          "paragraphs": [
+            "These terms are between you and us, not Apple. Apple is not responsible for bubbulies or its content, and has no obligation to provide maintenance or support for it. Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them against you."
+          ],
+          "items": []
+        },
+        {
+          "id": "changes",
+          "title": "Changes to these terms",
+          "paragraphs": [
+            "If we change these terms, we will update this page and its effective date. Continuing to play after a change means you accept the updated terms."
+          ],
+          "items": []
+        },
+        {
+          "id": "contact",
+          "title": "Contact",
+          "paragraphs": [
+            "Email {{supportEmail}}."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "navTitle": "Support",
+      "summary": "Help with playing, progress, rewards and your account, and how to reach us.",
+      "sections": [
+        {
+          "id": "contact-us",
+          "title": "Contact us",
+          "paragraphs": [
+            "Email {{supportEmail}}. You can write in English or Arabic."
+          ],
+          "items": []
+        },
+        {
+          "id": "what-to-include",
+          "title": "What to include",
+          "paragraphs": [],
+          "items": [
+            "The game version (shown at the bottom of Settings), your iPhone model and iOS version.",
+            "The level or mode, and the steps that led to the problem.",
+            "A screenshot, if it shows no personal information.",
+            "Never send passwords, verification codes or other sign-in details. We will never ask for them."
+          ]
+        },
+        {
+          "id": "how-to-play",
+          "title": "How to play",
+          "paragraphs": [
+            "Drag above the launcher to aim, then release to shoot. Match three or more bubbles of the same colour to pop them. Bubbles that are no longer connected to the ceiling fall for extra points. Use the aim preview to plan wall bounces, and swap your current and next bubble before a shot when it helps."
+          ],
+          "items": []
+        },
+        {
+          "id": "progress",
+          "title": "Progress and new devices",
+          "paragraphs": [
+            "Progress is saved on your iPhone. Deleting the app also deletes progress that has not been saved to an online account. To keep your progress on a new device, open Profile, tap Connect account, then link Sign in with Apple. You can also save a copy of your device data from Settings → Privacy and account → Request a copy of your data."
+          ],
+          "items": []
+        },
+        {
+          "id": "retries-and-purchases",
+          "title": "Retries and purchases",
+          "paragraphs": [
+            "Retries are free, and there are no lives to wait for. bubbulies has no real-money purchases, so there is nothing to buy, restore or refund."
+          ],
+          "items": []
+        },
+        {
+          "id": "ad-rewards",
+          "title": "Ad rewards",
+          "paragraphs": [
+            "Ads are optional and need an internet connection and a connected account. After an ad, the reward can show as pending for a short while until our server confirms it; it will arrive even if you close the app. You do not need to watch the ad again. If no ad loads, try again later; normal play is never blocked."
+          ],
+          "items": []
+        },
+        {
+          "id": "comfort",
+          "title": "Comfort and accessibility",
+          "paragraphs": [
+            "In Settings you can switch music, sound effects and haptics on or off separately, reduce motion, show colour symbols on bubbles, turn the aim guide on or off, and choose English or Arabic."
+          ],
+          "items": []
+        },
+        {
+          "id": "privacy-and-deletion",
+          "title": "Privacy and deleting data",
+          "paragraphs": [
+            "Your privacy choices are in Settings → Privacy and account. To delete your cloud account, see the Account deletion page. To erase progress on your iPhone, use Reset progress on this device."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "account-deletion": {
+      "title": "Account deletion",
+      "navTitle": "Delete account",
+      "summary": "How to delete your bubbulies cloud account in the app or by email, what is deleted and what is kept.",
+      "sections": [
+        {
+          "id": "in-the-app",
+          "title": "Delete your account in the app",
+          "paragraphs": [],
+          "items": [
+            "Open bubbulies and tap Profile.",
+            "Tap Delete cloud account.",
+            "If your account is linked to Apple, sign in with Apple again when asked. For your security, deletion needs a sign-in from the last few minutes.",
+            "Tick the confirmation box, type DELETE and confirm.",
+            "Deletion starts straight away. When it finishes, the app shows “Cloud account deleted”."
+          ]
+        },
+        {
+          "id": "what-is-deleted",
+          "title": "What is deleted",
+          "paragraphs": [],
+          "items": [
+            "Your Firebase account and its sign-in links. Your Sign in with Apple authorisation for bubbulies is revoked.",
+            "Your profile: nickname, avatar and friend code.",
+            "Best scores and stars, Coins, boosters, reward receipts, daily and challenge records, and Bonus Pop records.",
+            "Ranked runs and all your ranking entries.",
+            "Friend connections, invitations and blocks, on both sides.",
+            "Ad reward records linked to your account."
+          ]
+        },
+        {
+          "id": "what-is-kept",
+          "title": "What is kept",
+          "paragraphs": [],
+          "items": [
+            "Your device save. It is separate from the cloud account; erase it with Settings → Privacy and account → Reset progress on this device, or by deleting the app.",
+            "A deletion marker (the random user ID and the deletion time) for 7 days, so an old sign-in session cannot recreate the account.",
+            "Analytics and crash reports already sent, if you had turned them on. Google keeps them for the period set for our project. Email us to ask for their deletion.",
+            "Information Google AdMob holds about ads you watched, under Google's own privacy policy.",
+            "Emails you sent us, for as long as needed to handle your request."
+          ]
+        },
+        {
+          "id": "by-email",
+          "title": "Ask us by email",
+          "paragraphs": [
+            "If you cannot use the app, email {{supportEmail}} with the subject “Delete my bubbulies account”. Include your friend code if you have one (Profile → Friends). We may ask for information that shows the account is yours. We will delete the account within one month and reply to confirm.",
+            "If your account is linked to Apple, the quickest way is to reinstall bubbulies, sign in with Apple and delete the account in the app. A guest account that was never linked can only be identified from its device. If you no longer have that device, we may not be able to find the account."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "navTitle": "Credits",
+      "summary": "Who made bubbulies, and the open-source software and artwork it uses.",
+      "sections": [
+        {
+          "id": "made-by",
+          "title": "Made by",
+          "paragraphs": [
+            "bubbulies is designed and developed by {{seller}}."
+          ],
+          "items": []
+        },
+        {
+          "id": "artwork-and-sound",
+          "title": "Artwork and sound",
+          "paragraphs": [
+            "Bubbi the bubble mascot, the app icon and the five world illustrations are original artwork made for bubbulies. The bubbles, effects and interface graphics are drawn by the game's own code. Music and sound effects are synthesised by the game. No third-party art packs, photographs, sound recordings or font files are used."
+          ],
+          "items": []
+        },
+        {
+          "id": "open-source",
+          "title": "Open-source software in the game",
+          "paragraphs": [],
+          "items": [
+            "Phaser 3, the game framework (MIT License).",
+            "Capacitor and its App, Haptics and Preferences plugins (MIT License).",
+            "Capacitor Community AdMob plugin (MIT License).",
+            "Firebase SDKs for JavaScript and Apple platforms (Apache License 2.0).",
+            "The Google Mobile Ads and User Messaging Platform SDKs are provided by Google under Google's own terms."
+          ]
+        },
+        {
+          "id": "this-website",
+          "title": "This website",
+          "paragraphs": [
+            "Plain HTML and CSS generated by a small Python script, with no scripts, cookies or trackers. It uses your device's own fonts."
+          ],
+          "items": []
+        },
+        {
+          "id": "trademarks",
+          "title": "Trademarks",
+          "paragraphs": [
+            "Apple, iPhone, App Store and Sign in with Apple are trademarks of Apple Inc. Google, Firebase and AdMob are trademarks of Google LLC. Their use here does not imply endorsement."
+          ],
+          "items": []
+        }
+      ]
+    }
+  }
+}

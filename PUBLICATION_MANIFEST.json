@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "scope": "bubbulies public website: reviewed source, tools, tests, optimized artwork, license notices and the generated static site",
+  "excludes": [
+    "game source code",
+    "Firebase/AdMob configuration and keys",
+    "signing material",
+    "private documents"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "4aabd082c79177c4d8b0e71ae8c78be935d00bc11612662a38b6f175adb05c01",
+      "bytes": 731
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672",
+      "bytes": 29
+    },
+    {
+      "path": "PUBLISH.md",
+      "sha256": "a7ac95d1753d0acce0cee7b762a2b1101c49e35548585ec27e958adc75c12e64",
+      "bytes": 3249
+    },
+    {
+      "path": "PublicSite/assets/icon-180.webp",
+      "sha256": "eee2d4e8327586b33b3810536a450c2006f17442dba24c8c5aef4b82e1e5bc5e",
+      "bytes": 5366
+    },
+    {
+      "path": "PublicSite/assets/icon-512.webp",
+      "sha256": "6b0077a9d31609b03fceb01e87c7034357f6691e3c90c20ab84d7ccf0e663ef5",
+      "bytes": 18994
+    },
+    {
+      "path": "PublicSite/assets/icon-64.webp",
+      "sha256": "05190fdaded0e48593acb6ab2bc975f68a6939dd731e2fe575f8a6ba30bc7100",
+      "bytes": 1802
+    },
+    {
+      "path": "PublicSite/assets/licenses/bubbulies-artwork-LICENSE.txt",
+      "sha256": "b5b3797fcdc6392d48fc58a300c2b1a898ca9e4aa34d67bdfb8e74d4071b1fc6",
+      "bytes": 1541
+    },
+    {
+      "path": "PublicSite/assets/licenses/capacitor-app-LICENSE.txt",
+      "sha256": "e8f989836e88732576472006444b65fd3d7d3c2455becdaaa4d82cd0dd43110f",
+      "bytes": 1083
+    },
+    {
+      "path": "PublicSite/assets/licenses/capacitor-community-admob-LICENSE.txt",
+      "sha256": "c4bb784d6ed7600a576d517d72afe722e2740d72e290202eb7071916834e2060",
+      "bytes": 1076
+    },
+    {
+      "path": "PublicSite/assets/licenses/capacitor-core-LICENSE.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "bytes": 1075
+    },
+    {
+      "path": "PublicSite/assets/licenses/capacitor-haptics-LICENSE.txt",
+      "sha256": "e8f989836e88732576472006444b65fd3d7d3c2455becdaaa4d82cd0dd43110f",
+      "bytes": 1083
+    },
+    {
+      "path": "PublicSite/assets/licenses/capacitor-ios-LICENSE.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "bytes": 1075
+    },
+    {
+      "path": "PublicSite/assets/licenses/capacitor-preferences-LICENSE.txt",
+      "sha256": "e8f989836e88732576472006444b65fd3d7d3c2455becdaaa4d82cd0dd43110f",
+      "bytes": 1083
+    },
+    {
+      "path": "PublicSite/assets/licenses/firebase-Apache-2.0-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "PublicSite/assets/licenses/phaser-LICENSE.txt",
+      "sha256": "c3123cd25de4eccf1fd5a5a0a6fc872299116d1dbbb48b00f2554a4c35220a65",
+      "bytes": 1100
+    },
+    {
+      "path": "PublicSite/assets/mascot.webp",
+      "sha256": "48c4a3046b01816887ed47448ceb9400efa287fd87d3ddf0a0296b79d958fb41",
+      "bytes": 35930
+    },
+    {
+      "path": "PublicSite/assets/provenance.json",
+      "sha256": "446680b55a613dae0efa0a31878989db2caeeea4a05487c0243f347b77fd64bf",
+      "bytes": 3761
+    },
+    {
+      "path": "PublicSite/assets/world-candy-skies.webp",
+      "sha256": "d266b1e5f7168cb752907c164c13d842d3539e05798afb7f13e0763d28eaec02",
+      "bytes": 6244
+    },
+    {
+      "path": "PublicSite/assets/world-cloud-meadows.webp",
+      "sha256": "f072ee687e0dbab43c3f407ea8e478d31710dad8afcd2bf40646ea20ae87c9db",
+      "bytes": 14714
+    },
+    {
+      "path": "PublicSite/assets/world-crystal-lagoon.webp",
+      "sha256": "80b85be6cedb1f64cf5dfc064b21eba7dbad9a2890063a1983c4a693b57e8d4b",
+      "bytes": 6158
+    },
+    {
+      "path": "PublicSite/assets/world-moonlight-kingdom.webp",
+      "sha256": "15e3fce2a23f9eed71e3ad08e01ab33d3fcf42315e36bd89610a6a16bac82adb",
+      "bytes": 6334
+    },
+    {
+      "path": "PublicSite/assets/world-starlight-valley.webp",
+      "sha256": "7a7aa13bd178f16ba0af9e312ba18959f74e4770d523c6d4ea169ed25ff7c906",
+      "bytes": 7260
+    },
+    {
+      "path": "PublicSite/content/ar.json",
+      "sha256": "94c4393cc76e26c09039bac4f97d71126e14584f2d7eb54c778c68be1da6e5ea",
+      "bytes": 47618
+    },
+    {
+      "path": "PublicSite/content/en.json",
+      "sha256": "eab1b3894a285dc5191dd5ef851e4abea77614c7eb8b6be784a96b34ad779624",
+      "bytes": 33944
+    },
+    {
+      "path": "PublicSite/publisher.json",
+      "sha256": "d4f13aa8122130dfe37e653dde4460c3ae1a35f121553ace348d2df981bec6f2",
+      "bytes": 1896
+    },
+    {
+      "path": "PublicSite/site.css",
+      "sha256": "0362206603465d260f47ba4b2b95665b83f54bf1284c61e477e9428dd3719c7e",
+      "bytes": 13943
+    },
+    {
+      "path": "PublicSite/tests/test_site.py",
+      "sha256": "915b0f87c44d2197f8c77c34526fc6a9a422fd7753b8e8373b28a458f5b921fe",
+      "bytes": 11865
+    },
+    {
+      "path": "README.md",
+      "sha256": "86a602a86e9f0b6994bc9c562b97aef453248c1af05e04022b2d1d70da8801c8",
+      "bytes": 2479
+    },
+    {
+      "path": "Tools/build_public_site.py",
+      "sha256": "7de15726eb540b55462738bd3024418d75cc7f2e4b544fcd46cd1fe63e7ad134",
+      "bytes": 29454
+    },
+    {
+      "path": "Tools/prepare_assets.py",
+      "sha256": "d35ae8a0e4d795a9e94882188e89158c705e3ade28eb123e224040c2befd8965",
+      "bytes": 8514
+    },
+    {
+      "path": "Tools/test_public_site.py",
+      "sha256": "c238a71957d7448f4fcce571ea100124e2b467cd91d79af22c053edccce225f9",
+      "bytes": 632
+    },
+    {
+      "path": "Tools/verify_public_export.py",
+      "sha256": "c77b1e113efd964c7a3c6af623f417f00b34bf7b545fc5eea709d9e9617c6937",
+      "bytes": 7821
+    },
+    {
+      "path": "docs/.nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/404.html",
+      "sha256": "c6683a1d6a129a326a48d6e90959e2de585e62fa696f342e6821605575701009",
+      "bytes": 2556
+    },
+    {
+      "path": "docs/account-deletion/index.html",
+      "sha256": "3b5c504b0fccb9f9f2c380becd83fd1329b88a9ca84425059d09db8fa41aa510",
+      "bytes": 703
+    },
+    {
+      "path": "docs/app-ads.txt",
+      "sha256": "9819056e161fd8bb0904becf81371e914feb5bce34c01d7872ca4719b27c0770",
+      "bytes": 59
+    },
+    {
+      "path": "docs/ar/account-deletion/index.html",
+      "sha256": "2eb79112c8303ef92c55e5645186384c30eda0d1f346da5baa8a119bf2234aac",
+      "bytes": 7933
+    },
+    {
+      "path": "docs/ar/credits/index.html",
+      "sha256": "3387dc987bf21b96c9ce8c7e4dee07f2568a7038a2d5acea4b45b49e12d73b9d",
+      "bytes": 7426
+    },
+    {
+      "path": "docs/ar/index.html",
+      "sha256": "c2fae15988597bb900d32786dec23e6ac53cc40dd0bf8eb6d72c7a2c566083ce",
+      "bytes": 9482
+    },
+    {
+      "path": "docs/ar/privacy/index.html",
+      "sha256": "65d67e6f218343050dc633baf5a0601f14dc529d5daa82bd5ebbc8acdc2f8b76",
+      "bytes": 26390
+    },
+    {
+      "path": "docs/ar/support/index.html",
+      "sha256": "4b9434b33433dbd326c877efd244118e72348fb05f08b1da823f5bdf0d9f29a9",
+      "bytes": 8165
+    },
+    {
+      "path": "docs/ar/terms/index.html",
+      "sha256": "c05ba91dafe475b077efbda9eb4e20a853b3d97dd9113a0e30f00bc729d1e932",
+      "bytes": 12429
+    },
+    {
+      "path": "docs/assets/icon-180.webp",
+      "sha256": "eee2d4e8327586b33b3810536a450c2006f17442dba24c8c5aef4b82e1e5bc5e",
+      "bytes": 5366
+    },
+    {
+      "path": "docs/assets/icon-512.webp",
+      "sha256": "6b0077a9d31609b03fceb01e87c7034357f6691e3c90c20ab84d7ccf0e663ef5",
+      "bytes": 18994
+    },
+    {
+      "path": "docs/assets/icon-64.webp",
+      "sha256": "05190fdaded0e48593acb6ab2bc975f68a6939dd731e2fe575f8a6ba30bc7100",
+      "bytes": 1802
+    },
+    {
+      "path": "docs/assets/licenses/bubbulies-artwork-LICENSE.txt",
+      "sha256": "b5b3797fcdc6392d48fc58a300c2b1a898ca9e4aa34d67bdfb8e74d4071b1fc6",
+      "bytes": 1541
+    },
+    {
+      "path": "docs/assets/licenses/capacitor-app-LICENSE.txt",
+      "sha256": "e8f989836e88732576472006444b65fd3d7d3c2455becdaaa4d82cd0dd43110f",
+      "bytes": 1083
+    },
+    {
+      "path": "docs/assets/licenses/capacitor-community-admob-LICENSE.txt",
+      "sha256": "c4bb784d6ed7600a576d517d72afe722e2740d72e290202eb7071916834e2060",
+      "bytes": 1076
+    },
+    {
+      "path": "docs/assets/licenses/capacitor-core-LICENSE.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "bytes": 1075
+    },
+    {
+      "path": "docs/assets/licenses/capacitor-haptics-LICENSE.txt",
+      "sha256": "e8f989836e88732576472006444b65fd3d7d3c2455becdaaa4d82cd0dd43110f",
+      "bytes": 1083
+    },
+    {
+      "path": "docs/assets/licenses/capacitor-ios-LICENSE.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "bytes": 1075
+    },
+    {
+      "path": "docs/assets/licenses/capacitor-preferences-LICENSE.txt",
+      "sha256": "e8f989836e88732576472006444b65fd3d7d3c2455becdaaa4d82cd0dd43110f",
+      "bytes": 1083
+    },
+    {
+      "path": "docs/assets/licenses/firebase-Apache-2.0-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "docs/assets/licenses/phaser-LICENSE.txt",
+      "sha256": "c3123cd25de4eccf1fd5a5a0a6fc872299116d1dbbb48b00f2554a4c35220a65",
+      "bytes": 1100
+    },
+    {
+      "path": "docs/assets/mascot.webp",
+      "sha256": "48c4a3046b01816887ed47448ceb9400efa287fd87d3ddf0a0296b79d958fb41",
+      "bytes": 35930
+    },
+    {
+      "path": "docs/assets/provenance.json",
+      "sha256": "446680b55a613dae0efa0a31878989db2caeeea4a05487c0243f347b77fd64bf",
+      "bytes": 3761
+    },
+    {
+      "path": "docs/assets/site.css",
+      "sha256": "0362206603465d260f47ba4b2b95665b83f54bf1284c61e477e9428dd3719c7e",
+      "bytes": 13943
+    },
+    {
+      "path": "docs/assets/world-candy-skies.webp",
+      "sha256": "d266b1e5f7168cb752907c164c13d842d3539e05798afb7f13e0763d28eaec02",
+      "bytes": 6244
+    },
+    {
+      "path": "docs/assets/world-cloud-meadows.webp",
+      "sha256": "f072ee687e0dbab43c3f407ea8e478d31710dad8afcd2bf40646ea20ae87c9db",
+      "bytes": 14714
+    },
+    {
+      "path": "docs/assets/world-crystal-lagoon.webp",
+      "sha256": "80b85be6cedb1f64cf5dfc064b21eba7dbad9a2890063a1983c4a693b57e8d4b",
+      "bytes": 6158
+    },
+    {
+      "path": "docs/assets/world-moonlight-kingdom.webp",
+      "sha256": "15e3fce2a23f9eed71e3ad08e01ab33d3fcf42315e36bd89610a6a16bac82adb",
+      "bytes": 6334
+    },
+    {
+      "path": "docs/assets/world-starlight-valley.webp",
+      "sha256": "7a7aa13bd178f16ba0af9e312ba18959f74e4770d523c6d4ea169ed25ff7c906",
+      "bytes": 7260
+    },
+    {
+      "path": "docs/credits/index.html",
+      "sha256": "a7c51fbdff5ba65a7e3701e83e78932c24689cf141b1486e7fbe6e1b5a0973db",
+      "bytes": 667
+    },
+    {
+      "path": "docs/en/account-deletion/index.html",
+      "sha256": "0e4863b7f5815f35e7ddbe21dc18198b4ae24bfeb53d427c7f0d71dac97312a7",
+      "bytes": 6222
+    },
+    {
+      "path": "docs/en/credits/index.html",
+      "sha256": "432dc88e5406920290d1fa39c2e85b31133f36163c569e7739b64564124eb9c2",
+      "bytes": 6426
+    },
+    {
+      "path": "docs/en/index.html",
+      "sha256": "c0b3b2a1a8d775d6aa23ec5de268c183927ed0031b41c8918f1e80df84910990",
+      "bytes": 7644
+    },
+    {
+      "path": "docs/en/privacy/index.html",
+      "sha256": "532e4b1ed1579fd38add995e8cb1af9cc042e81f642d69489d2b8dc504a0c4c3",
+      "bytes": 19257
+    },
+    {
+      "path": "docs/en/support/index.html",
+      "sha256": "feb7835f42c1dabdb2b930db24f548b0432151e3d8758c03cd4e8456422b8ce1",
+      "bytes": 6464
+    },
+    {
+      "path": "docs/en/terms/index.html",
+      "sha256": "8e201317e36a3216ae22901e9b6fda7d3209f0837a986915e54f7b1a9dadda43",
+      "bytes": 9257
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "f15df5f097a93f3d4e6a5b8ab59d31b3d4bf4bf9bf678f4ce08fcbd29e7800d9",
+      "bytes": 3049
+    },
+    {
+      "path": "docs/legal-documents.json",
+      "sha256": "c4eb6216a893791083b10fcd2be97dbff37bc0c372f4156c98c0fa75dd6ec182",
+      "bytes": 79811
+    },
+    {
+      "path": "docs/privacy/index.html",
+      "sha256": "c80a942d16de027793dc8d51af1d9c77b54737c62e12df7ff75105fd2bde29c0",
+      "bytes": 667
+    },
+    {
+      "path": "docs/robots.txt",
+      "sha256": "1383128dc192cfcf40edf365279da98c3668e81508de6b3a6f2915ad5b6baf12",
+      "bytes": 72
+    },
+    {
+      "path": "docs/sitemap.xml",
+      "sha256": "992c931c7eac268dc8835e859de05db53363e46886db49ddb4f028b073aa3ab2",
+      "bytes": 1306
+    },
+    {
+      "path": "docs/support/index.html",
+      "sha256": "9388f99afec064a63ac3912c4bb59ff330e0898b476766a6e7d9cef871abc4f7",
+      "bytes": 667
+    },
+    {
+      "path": "docs/terms/index.html",
+      "sha256": "61b35ee0a3ea60dced8c32ef600e3f06b16ac6f31194391f1b0e8f5e52356899",
+      "bytes": 659
+    }
+  ]
+}

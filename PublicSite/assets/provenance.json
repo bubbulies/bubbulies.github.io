@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Lightweight website copies of original bubbulies artwork; the game's source files are unchanged",
+  "gameRepository": "bubbulies (private game repository)",
+  "gameCommit": "d38e2d7ff7ecad5fa018061084649ee5d152ae3b",
+  "provenance": "docs/ASSET_INVENTORY.md lists every source as project-authored original artwork under the MIT asset notice (licenses/bubbulies-artwork-LICENSE.txt)",
+  "encoder": "Google Chrome canvas WebP encoder (headless)",
+  "fonts": "None bundled; the site uses device fonts, like the game",
+  "images": [
+    {
+      "source": "public/assets/app-icon-1024.png",
+      "sourceSha256": "8a1c00b28dcaeda917e6827d08da4a556cc64cf722108f8512da5dae4732fc0d",
+      "output": "icon-512.webp",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 18994,
+      "sha256": "6b0077a9d31609b03fceb01e87c7034357f6691e3c90c20ab84d7ccf0e663ef5"
+    },
+    {
+      "source": "public/assets/app-icon-1024.png",
+      "sourceSha256": "8a1c00b28dcaeda917e6827d08da4a556cc64cf722108f8512da5dae4732fc0d",
+      "output": "icon-180.webp",
+      "dimensions": [
+        180,
+        180
+      ],
+      "bytes": 5366,
+      "sha256": "eee2d4e8327586b33b3810536a450c2006f17442dba24c8c5aef4b82e1e5bc5e"
+    },
+    {
+      "source": "public/assets/app-icon-1024.png",
+      "sourceSha256": "8a1c00b28dcaeda917e6827d08da4a556cc64cf722108f8512da5dae4732fc0d",
+      "output": "icon-64.webp",
+      "dimensions": [
+        64,
+        64
+      ],
+      "bytes": 1802,
+      "sha256": "05190fdaded0e48593acb6ab2bc975f68a6939dd731e2fe575f8a6ba30bc7100"
+    },
+    {
+      "source": "public/assets/bubble-mascot.svg",
+      "sourceSha256": "ae1b6fde2b287a64e385a38a49c15eb16b3cc602a1ed0fd75442a3989713c5bf",
+      "output": "mascot.webp",
+      "dimensions": [
+        420,
+        420
+      ],
+      "bytes": 35930,
+      "sha256": "48c4a3046b01816887ed47448ceb9400efa287fd87d3ddf0a0296b79d958fb41"
+    },
+    {
+      "source": "public/assets/cloud-meadows.svg",
+      "sourceSha256": "5c79efd31513a293b028346d6c334c7238aed0cfe19eb60fda658dfc946460be",
+      "output": "world-cloud-meadows.webp",
+      "dimensions": [
+        585,
+        1266
+      ],
+      "bytes": 14714,
+      "sha256": "f072ee687e0dbab43c3f407ea8e478d31710dad8afcd2bf40646ea20ae87c9db"
+    },
+    {
+      "source": "public/assets/candy-skies.svg",
+      "sourceSha256": "01f4453b9f647c37d3e88b7193400b4a8f8944cd5b5e4f3b9f4c73a498d323f1",
+      "output": "world-candy-skies.webp",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 6244,
+      "sha256": "d266b1e5f7168cb752907c164c13d842d3539e05798afb7f13e0763d28eaec02"
+    },
+    {
+      "source": "public/assets/crystal-lagoon.svg",
+      "sourceSha256": "7ae283415b9c7043067a8a420eac9a87df181804f21efc30477cc48814edaa18",
+      "output": "world-crystal-lagoon.webp",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 6158,
+      "sha256": "80b85be6cedb1f64cf5dfc064b21eba7dbad9a2890063a1983c4a693b57e8d4b"
+    },
+    {
+      "source": "public/assets/starlight-valley.svg",
+      "sourceSha256": "dfdaa39e4f7c65acc9e21ea06af7eae26c1b8fb7478e9b644b4dc27d768fdd41",
+      "output": "world-starlight-valley.webp",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 7260,
+      "sha256": "7a7aa13bd178f16ba0af9e312ba18959f74e4770d523c6d4ea169ed25ff7c906"
+    },
+    {
+      "source": "public/assets/moonlight-kingdom.svg",
+      "sourceSha256": "470681d0b62c90c40acfe4024003ea1467587f0a70954822657eb10c7f5cee96",
+      "output": "world-moonlight-kingdom.webp",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 6334,
+      "sha256": "15e3fce2a23f9eed71e3ad08e01ab33d3fcf42315e36bd89610a6a16bac82adb"
+    }
+  ]
+}
