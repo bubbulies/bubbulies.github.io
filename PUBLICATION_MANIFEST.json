@@ -120,18 +120,18 @@
     },
     {
       "path": "PublicSite/content/ar.json",
-      "sha256": "94c4393cc76e26c09039bac4f97d71126e14584f2d7eb54c778c68be1da6e5ea",
-      "bytes": 47618
+      "sha256": "4d561a8068b2352ec6fec3bab3474ec4fd2354f81150360c41924211c5622bd9",
+      "bytes": 47566
     },
     {
       "path": "PublicSite/content/en.json",
-      "sha256": "eab1b3894a285dc5191dd5ef851e4abea77614c7eb8b6be784a96b34ad779624",
-      "bytes": 33944
+      "sha256": "09e065e9f94c5099f9dc171d8269c2b29e69aac52709bd1e1afac4d9a24d7315",
+      "bytes": 33904
     },
     {
       "path": "PublicSite/publisher.json",
-      "sha256": "d4f13aa8122130dfe37e653dde4460c3ae1a35f121553ace348d2df981bec6f2",
-      "bytes": 1896
+      "sha256": "ac2266294f18e99b5f7064404c5157d3d9458b921b9fd08438d28319ec17f93a",
+      "bytes": 1899
     },
     {
       "path": "PublicSite/site.css",
@@ -190,33 +190,33 @@
     },
     {
       "path": "docs/ar/account-deletion/index.html",
-      "sha256": "2eb79112c8303ef92c55e5645186384c30eda0d1f346da5baa8a119bf2234aac",
-      "bytes": 7933
+      "sha256": "e35f04d452a9587f7650db074eba81cb0f3b5e4971cad316d7454d73acbf9d50",
+      "bytes": 7936
     },
     {
       "path": "docs/ar/credits/index.html",
-      "sha256": "3387dc987bf21b96c9ce8c7e4dee07f2568a7038a2d5acea4b45b49e12d73b9d",
-      "bytes": 7426
+      "sha256": "70fd3aeab617d69064a062d3812f449d742b5e324d3f37c2383156f408ed4387",
+      "bytes": 7432
     },
     {
       "path": "docs/ar/index.html",
-      "sha256": "c2fae15988597bb900d32786dec23e6ac53cc40dd0bf8eb6d72c7a2c566083ce",
-      "bytes": 9482
+      "sha256": "84de6d8202f01a6378d6562b0327ec2dc4599288168b18b51714d8d2248e4a8e",
+      "bytes": 9485
     },
     {
       "path": "docs/ar/privacy/index.html",
-      "sha256": "65d67e6f218343050dc633baf5a0601f14dc529d5daa82bd5ebbc8acdc2f8b76",
-      "bytes": 26390
+      "sha256": "410b9f61fd16b2ff2647a0d76a9c4ede49305ff1092d16b7e2214400ad5962bd",
+      "bytes": 26344
     },
     {
       "path": "docs/ar/support/index.html",
-      "sha256": "4b9434b33433dbd326c877efd244118e72348fb05f08b1da823f5bdf0d9f29a9",
-      "bytes": 8165
+      "sha256": "0951491c12fb09ab76dbbc02264a9167ee145cd1c7b4b45394504acb3293aebb",
+      "bytes": 8168
     },
     {
       "path": "docs/ar/terms/index.html",
-      "sha256": "c05ba91dafe475b077efbda9eb4e20a853b3d97dd9113a0e30f00bc729d1e932",
-      "bytes": 12429
+      "sha256": "09bf12ffd8419e8cb6466a89344edf206017c2a9eb7560b2e8cf370175095d0c",
+      "bytes": 12435
     },
     {
       "path": "docs/assets/icon-180.webp",
@@ -325,33 +325,33 @@
     },
     {
       "path": "docs/en/account-deletion/index.html",
-      "sha256": "0e4863b7f5815f35e7ddbe21dc18198b4ae24bfeb53d427c7f0d71dac97312a7",
-      "bytes": 6222
+      "sha256": "8f35db90e0b28ec4acd460335336bcb0a09041116626a2a13decd9547811d7ed",
+      "bytes": 6225
     },
     {
       "path": "docs/en/credits/index.html",
-      "sha256": "432dc88e5406920290d1fa39c2e85b31133f36163c569e7739b64564124eb9c2",
-      "bytes": 6426
+      "sha256": "d8de4f9b4134c99e13daa423f7f5356418f0169ab32d2a31226eaa1f2b8cddaa",
+      "bytes": 6432
     },
     {
       "path": "docs/en/index.html",
-      "sha256": "c0b3b2a1a8d775d6aa23ec5de268c183927ed0031b41c8918f1e80df84910990",
-      "bytes": 7644
+      "sha256": "fc310f45f4cbdf1a4f9e4dcdb6fc87568b94cb5435f2a20baf73903248215cfb",
+      "bytes": 7647
     },
     {
       "path": "docs/en/privacy/index.html",
-      "sha256": "532e4b1ed1579fd38add995e8cb1af9cc042e81f642d69489d2b8dc504a0c4c3",
-      "bytes": 19257
+      "sha256": "5f0e622306968a2b586bdb62b94c0c45c2c0a0f1dd04ae8f7fd092a41fd9b80f",
+      "bytes": 19223
     },
     {
       "path": "docs/en/support/index.html",
-      "sha256": "feb7835f42c1dabdb2b930db24f548b0432151e3d8758c03cd4e8456422b8ce1",
-      "bytes": 6464
+      "sha256": "44207b74f194bd2b47ada468813d1bc9470649ba3d5d2fc2c6d8fbf47408e7d2",
+      "bytes": 6467
     },
     {
       "path": "docs/en/terms/index.html",
-      "sha256": "8e201317e36a3216ae22901e9b6fda7d3209f0837a986915e54f7b1a9dadda43",
-      "bytes": 9257
+      "sha256": "70a6d66b44e0db182e4397afa53b771245c5622ea154006f7ad5d63c7f4db4ed",
+      "bytes": 9263
     },
     {
       "path": "docs/index.html",
@@ -360,8 +360,8 @@
     },
     {
       "path": "docs/legal-documents.json",
-      "sha256": "c4eb6216a893791083b10fcd2be97dbff37bc0c372f4156c98c0fa75dd6ec182",
-      "bytes": 79811
+      "sha256": "621a795152f38d7c0564cac09c64f018b97fe3cc4344f4882478b19a9d25437f",
+      "bytes": 79740
     },
     {
       "path": "docs/privacy/index.html",
