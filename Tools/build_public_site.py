@@ -95,6 +95,13 @@ def validate_config(config):
     if store and not (valid_https(store, allow_path=True) and urlsplit(store).hostname == "apps.apple.com"
                       and re.fullmatch(r"/(?:[a-z]{2}/)?app/(?:[^/]+/)?id[0-9]+", urlsplit(store).path)):
         errors.append("publisher.appStoreUrl must be empty or an apps.apple.com listing URL")
+    flight = config.get("testFlightUrl", "")
+    if flight and not (valid_https(flight, allow_path=True) and urlsplit(flight).hostname == "testflight.apple.com"
+                       and re.fullmatch(r"/join/[A-Za-z0-9]{6,16}", urlsplit(flight).path)):
+        errors.append("publisher.testFlightUrl must be empty or a testflight.apple.com/join/... link")
+    ids = config.get("appleAppIds", [])
+    if not isinstance(ids, list) or not all(isinstance(i, str) and re.fullmatch(r"[A-Z0-9]{10}\.[A-Za-z0-9.-]+", i) for i in ids):
+        errors.append("publisher.appleAppIds must list TEAMID.bundle.id values")
     lines = config.get("appAdsTxt")
     if not isinstance(lines, list) or not lines:
         errors.append("publisher.appAdsTxt must list at least one authorized seller line")
@@ -385,7 +392,10 @@ def render_entry(content, config, not_found=False):
         title = f'{en["ui"]["notFoundTitle"]} · {ar["ui"]["notFoundTitle"]}'
         heading = (f'<h1><span lang="en" dir="ltr">{esc(en["ui"]["notFoundTitle"])}</span>'
                    f'<span lang="ar" dir="rtl">{esc(ar["ui"]["notFoundTitle"])}</span></h1>'
-                   f'<p lang="en" dir="ltr">{esc(en["ui"]["notFoundText"])}</p><p lang="ar" dir="rtl">{esc(ar["ui"]["notFoundText"])}</p>')
+                   f'<p lang="en" dir="ltr">{esc(en["ui"]["notFoundText"])}</p><p lang="ar" dir="rtl">{esc(ar["ui"]["notFoundText"])}</p>'
+                   # /i/<code> invitation links land here when the app is not installed (no scripts on this site).
+                   f'<p class="invite-note" lang="en" dir="ltr">{esc(en["ui"]["inviteNote"])}</p><p class="invite-note" lang="ar" dir="rtl">{esc(ar["ui"]["inviteNote"])}</p>'
+                   f'<div class="hero-actions entry-actions">{install_links_html(content, config)}</div>')
         robots, canonical, alternates = "noindex", "", []
     else:
         title = f'bubbulies · {en["ui"]["tagline"]} · {ar["ui"]["tagline"]}'
@@ -409,6 +419,51 @@ def render_entry(content, config, not_found=False):
         "</main></body></html>",
     ]
     return "\n".join(out) + "\n"
+
+
+def install_links_html(content, config):
+    """App Store when live, otherwise the public TestFlight link, otherwise "coming soon"."""
+    en, ar = content["en"]["ui"], content["ar"]["ui"]
+    if config.get("appStoreUrl"):
+        return (f'<a class="button button-pink" rel="noopener" href="{esc(config["appStoreUrl"])}" lang="en" dir="ltr">{esc(en["appStore"])}</a>'
+                f'<a class="button button-pink" rel="noopener" href="{esc(config["appStoreUrl"])}" lang="ar" dir="rtl">{esc(ar["appStore"])}</a>')
+    if config.get("testFlightUrl"):
+        return (f'<a class="button button-pink" rel="noopener" href="{esc(config["testFlightUrl"])}" lang="en" dir="ltr">{esc(en["inviteTestFlight"])}</a>'
+                f'<a class="button button-pink" rel="noopener" href="{esc(config["testFlightUrl"])}" lang="ar" dir="rtl">{esc(ar["inviteTestFlight"])}</a>')
+    return f'<span class="soon-pill" lang="en" dir="ltr">{esc(en["comingSoon"])}</span><span class="soon-pill" lang="ar" dir="rtl">{esc(ar["comingSoon"])}</span>'
+
+
+def render_invite(content, config):
+    """/i/ invitation landing page. With the app installed, iOS opens https://bubbulies.github.io/i/<code>
+    in the game (Universal Link, see apple-app-site-association) and this page is never shown.
+    Without it, GitHub Pages serves 404.html for /i/<code>, which carries the same invitation note."""
+    en, ar = content["en"]["ui"], content["ar"]["ui"]
+    base = config["baseUrl"].rstrip("/")
+    out = [
+        head(f'{en["inviteTitle"]} · {ar["inviteTitle"]}', en["inviteText"], "en", "/", base + "/i/", [], "noindex"),
+        '<body class="entry-body"><main class="entry-card invite-card" id="main">',
+        '<img class="entry-mascot" src="/assets/mascot.webp" width="420" height="420" alt="">',
+        '<p class="eyebrow">bubbulies</p>',
+        f'<h1><span lang="en" dir="ltr">{esc(en["inviteTitle"])}</span><span lang="ar" dir="rtl">{esc(ar["inviteTitle"])}</span></h1>',
+        f'<p lang="en" dir="ltr">{esc(en["inviteText"])}</p><p lang="ar" dir="rtl">{esc(ar["inviteText"])}</p>',
+        f'<p lang="en" dir="ltr">{esc(en["inviteSteps"])}</p><p lang="ar" dir="rtl">{esc(ar["inviteSteps"])}</p>',
+        '<div class="hero-actions entry-actions">' + install_links_html(content, config) + '</div>',
+        '<div class="hero-actions entry-actions"><a class="button" href="/en/" lang="en" dir="ltr">English</a><a class="button" href="/ar/" lang="ar" dir="rtl">العربية</a></div>',
+        "</main></body></html>",
+    ]
+    return "\n".join(out) + "\n"
+
+
+def apple_app_site_association(config):
+    """Universal Links: friend invitations at /i/<code> open the iPhone app (team ID + bundle ID are public)."""
+    ids = config.get("appleAppIds", [])
+    return json_text({
+        "applinks": {
+            "apps": [],
+            "details": [{"appIDs": ids, "components": [{"/": "/i/*", "comment": "Friend invitations"}]}]
+            + [{"appID": app_id, "paths": ["/i/*"]} for app_id in ids],
+        },
+    })
 
 
 def render_redirect(config, page_id):
@@ -528,6 +583,9 @@ def build_site(output_dir=ROOT / "docs"):
     write(output / "index.html", render_entry(content, config))
     write(output / "404.html", render_entry(content, config, not_found=True))
     write(output / ".nojekyll", "")
+    write(output / "i" / "index.html", render_invite(content, config))
+    if config.get("appleAppIds"):
+        write(output / ".well-known" / "apple-app-site-association", apple_app_site_association(config))
     write(output / "app-ads.txt", "\n".join(config["appAdsTxt"]) + "\n")
     write(output / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n")
     urls = [f"{base}/"] + [f"{base}/{route(lang, p)}" for lang in LANGUAGES for p in PAGE_IDS]

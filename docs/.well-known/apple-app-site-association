@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "KD882745XV.com.bubbulies.game"
+        ],
+        "components": [
+          {
+            "/": "/i/*",
+            "comment": "Friend invitations"
+          }
+        ]
+      },
+      {
+        "appID": "KD882745XV.com.bubbulies.game",
+        "paths": [
+          "/i/*"
+        ]
+      }
+    ]
+  }
+}

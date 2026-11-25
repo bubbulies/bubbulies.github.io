@@ -25,7 +25,12 @@
     "licenses": "License notices",
     "references": "Official service information",
     "notFoundTitle": "This bubble floated away",
-    "notFoundText": "The page you asked for doesn't exist. Choose a page below."
+    "notFoundText": "The page you asked for doesn't exist. Choose a page below.",
+    "inviteTitle": "You're invited to bubbulies",
+    "inviteText": "A friend invited you to play bubbulies, a bright bubble-shooter for iPhone.",
+    "inviteSteps": "Install bubbulies, then tap your friend's link again: it opens the game and sends them a friend request from you.",
+    "inviteTestFlight": "Join the test on TestFlight",
+    "inviteNote": "Opened an invitation link? Install bubbulies, then tap the link again to add your friend."
   },
   "worlds": [
     "Cloud Meadows",

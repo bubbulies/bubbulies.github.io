@@ -52,6 +52,19 @@ class BuiltSite(unittest.TestCase):
         for short in builder.SHORT_LINKS:
             self.assertIn(f'url=/en/{short}/', self.page(f"{short}/index.html"))
 
+    def test_invitation_links_open_the_app_or_a_bilingual_landing(self):
+        aasa = json.loads(self.page(".well-known/apple-app-site-association"))
+        detail = aasa["applinks"]["details"][0]
+        self.assertEqual(detail["appIDs"], ["KD882745XV.com.bubbulies.game"])
+        self.assertEqual(detail["components"], [{"/": "/i/*", "comment": "Friend invitations"}])
+        self.assertIn({"appID": "KD882745XV.com.bubbulies.game", "paths": ["/i/*"]}, aasa["applinks"]["details"])
+        invite = self.page("i/index.html")
+        self.assertIn("You're invited to bubbulies".replace("'", "&#x27;"), invite)
+        self.assertIn("أنت مدعو إلى bubbulies", invite)
+        self.assertIn('name="robots" content="noindex"', invite)
+        # /i/<code> is served by 404.html when the app is missing: it explains the invitation too.
+        self.assertIn("Opened an invitation link?", self.page("404.html"))
+
     def test_no_scripts_trackers_forms_or_remote_assets(self):
         for name, text in self.all_html().items():
             lowered = text.lower()
@@ -133,7 +146,7 @@ class BuiltSite(unittest.TestCase):
             self.assertIn(f"assets/licenses/{path.name}", credits)
 
     def test_audit_counts(self):
-        self.assertEqual(self.report["audit"]["htmlPages"], 12 + 2 + len(builder.SHORT_LINKS))
+        self.assertEqual(self.report["audit"]["htmlPages"], 12 + 3 + len(builder.SHORT_LINKS))  # + /i/ invitation page
 
     def test_build_is_reproducible(self):
         with tempfile.TemporaryDirectory() as other:

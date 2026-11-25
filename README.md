@@ -18,6 +18,7 @@ The site is plain HTML and CSS. It has no scripts, analytics, cookies, forms, we
 | `Tools/test_public_site.py` | Runs the tests |
 | `Tools/prepare_assets.py` | Occasional: regenerates the WebP art and license copies from the game repository using local Chrome |
 | `docs/` | The generated site that GitHub Pages serves. Do not edit by hand |
+| `docs/.well-known/apple-app-site-association`, `docs/i/` | Friend invitations: `https://bubbulies.github.io/i/<code>` opens the iPhone app (Universal Link for `appleAppIds` in `publisher.json`); without the app, GitHub Pages serves `404.html`, which explains the invitation, and `/i/` is a bilingual invitation page. Set `testFlightUrl` (a public TestFlight link) or `appStoreUrl` to show an install button |
 | `PUBLICATION_MANIFEST.json` | SHA-256 of every reviewed file |
 
 ## Making a change

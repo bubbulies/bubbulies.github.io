@@ -8,17 +8,71 @@
   "effectiveDate": "2026-11-23",
   "minimumAge": 13,
   "appStoreUrl": "",
+  "testFlightUrl": "",
+  "appleAppIds": [
+    "KD882745XV.com.bubbulies.game"
+  ],
   "appAdsTxt": [
     "google.com, pub-7804927976673782, DIRECT, f08c47fec0942fa0"
   ],
   "hostingProvider": "GitHub Pages",
   "references": [
-    {"en": "Apple Standard End User License Agreement", "ar": "اتفاقية ترخيص المستخدم النهائي القياسية من Apple", "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/", "pages": ["terms"]},
-    {"en": "Apple privacy policy", "ar": "سياسة الخصوصية لدى Apple", "url": "https://www.apple.com/legal/privacy/", "pages": ["privacy"]},
-    {"en": "Google privacy policy", "ar": "سياسة الخصوصية لدى Google", "url": "https://policies.google.com/privacy", "pages": ["privacy"]},
-    {"en": "How Google uses information from apps that use its services", "ar": "كيف تستخدم Google المعلومات من التطبيقات التي تستخدم خدماتها", "url": "https://policies.google.com/technologies/partner-sites", "pages": ["privacy"]},
-    {"en": "Firebase privacy and security", "ar": "الخصوصية والأمان في Firebase", "url": "https://firebase.google.com/support/privacy", "pages": ["privacy", "credits"]},
-    {"en": "GitHub general privacy statement (website hosting)", "ar": "بيان الخصوصية العام لدى GitHub (استضافة الموقع)", "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement", "pages": ["privacy"]},
-    {"en": "Google Mobile Ads SDK terms", "ar": "شروط حزمة Google Mobile Ads SDK", "url": "https://developers.google.com/admob/terms", "pages": ["credits"]}
+    {
+      "en": "Apple Standard End User License Agreement",
+      "ar": "اتفاقية ترخيص المستخدم النهائي القياسية من Apple",
+      "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "pages": [
+        "terms"
+      ]
+    },
+    {
+      "en": "Apple privacy policy",
+      "ar": "سياسة الخصوصية لدى Apple",
+      "url": "https://www.apple.com/legal/privacy/",
+      "pages": [
+        "privacy"
+      ]
+    },
+    {
+      "en": "Google privacy policy",
+      "ar": "سياسة الخصوصية لدى Google",
+      "url": "https://policies.google.com/privacy",
+      "pages": [
+        "privacy"
+      ]
+    },
+    {
+      "en": "How Google uses information from apps that use its services",
+      "ar": "كيف تستخدم Google المعلومات من التطبيقات التي تستخدم خدماتها",
+      "url": "https://policies.google.com/technologies/partner-sites",
+      "pages": [
+        "privacy"
+      ]
+    },
+    {
+      "en": "Firebase privacy and security",
+      "ar": "الخصوصية والأمان في Firebase",
+      "url": "https://firebase.google.com/support/privacy",
+      "pages": [
+        "privacy",
+        "credits"
+      ]
+    },
+    {
+      "en": "GitHub general privacy statement (website hosting)",
+      "ar": "بيان الخصوصية العام لدى GitHub (استضافة الموقع)",
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "pages": [
+        "privacy"
+      ]
+    },
+    {
+      "en": "Google Mobile Ads SDK terms",
+      "ar": "شروط حزمة Google Mobile Ads SDK",
+      "url": "https://developers.google.com/admob/terms",
+      "pages": [
+        "credits"
+      ]
+    }
   ]
 }

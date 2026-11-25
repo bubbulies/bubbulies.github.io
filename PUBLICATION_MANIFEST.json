@@ -120,18 +120,18 @@
     },
     {
       "path": "PublicSite/content/ar.json",
-      "sha256": "4d561a8068b2352ec6fec3bab3474ec4fd2354f81150360c41924211c5622bd9",
-      "bytes": 47566
+      "sha256": "f493f00563dd088571bac92a051c6e22579dbc5e367d23675fa2725df7825c59",
+      "bytes": 48106
     },
     {
       "path": "PublicSite/content/en.json",
-      "sha256": "09e065e9f94c5099f9dc171d8269c2b29e69aac52709bd1e1afac4d9a24d7315",
-      "bytes": 33904
+      "sha256": "c8e9018e76ddce93cb8ee00f5b893124a2427a333edeaf9ed4eede0c0febd5ee",
+      "bytes": 34353
     },
     {
       "path": "PublicSite/publisher.json",
-      "sha256": "ac2266294f18e99b5f7064404c5157d3d9458b921b9fd08438d28319ec17f93a",
-      "bytes": 1899
+      "sha256": "438a0a80e94ae1d3154695d96fcaf14dfcdec427d0bcf74dd02bf9e0cd55059b",
+      "bytes": 2312
     },
     {
       "path": "PublicSite/site.css",
@@ -140,18 +140,18 @@
     },
     {
       "path": "PublicSite/tests/test_site.py",
-      "sha256": "915b0f87c44d2197f8c77c34526fc6a9a422fd7753b8e8373b28a458f5b921fe",
-      "bytes": 11865
+      "sha256": "92aee8189bab895071ac0cc42f45b38251cd71e288c7f9be38a86a55267f7b23",
+      "bytes": 12812
     },
     {
       "path": "README.md",
-      "sha256": "86a602a86e9f0b6994bc9c562b97aef453248c1af05e04022b2d1d70da8801c8",
-      "bytes": 2479
+      "sha256": "54bc6d16b6976dfa5b52c975cca6ddbfe9e7b8d9b35e4890e0e9487cea828929",
+      "bytes": 2890
     },
     {
       "path": "Tools/build_public_site.py",
-      "sha256": "7de15726eb540b55462738bd3024418d75cc7f2e4b544fcd46cd1fe63e7ad134",
-      "bytes": 29454
+      "sha256": "ce491fb9c506276e5fcdb6aaf5b63ca53dbbd92ae16f10fc7c00856e37f3f8a5",
+      "bytes": 33675
     },
     {
       "path": "Tools/prepare_assets.py",
@@ -174,9 +174,14 @@
       "bytes": 0
     },
     {
+      "path": "docs/.well-known/apple-app-site-association",
+      "sha256": "525a95181b7d9cc57fb9879d515696f5d2d667c6a8fef630b2f22497efaa5371",
+      "bytes": 392
+    },
+    {
       "path": "docs/404.html",
-      "sha256": "c6683a1d6a129a326a48d6e90959e2de585e62fa696f342e6821605575701009",
-      "bytes": 2556
+      "sha256": "000301aff8ccb5a2c155c84132534f92605ec747efef152f8e6cd4e7f51b0480",
+      "bytes": 3092
     },
     {
       "path": "docs/account-deletion/index.html",
@@ -352,6 +357,11 @@
       "path": "docs/en/terms/index.html",
       "sha256": "70a6d66b44e0db182e4397afa53b771245c5622ea154006f7ad5d63c7f4db4ed",
       "bytes": 9263
+    },
+    {
+      "path": "docs/i/index.html",
+      "sha256": "28beef7f56e4b872770ff5e7157061bc2b3814ae243ec6ed8bb0e0a08a934d27",
+      "bytes": 2376
     },
     {
       "path": "docs/index.html",
